@@ -1,0 +1,38 @@
+.nav {
+    display: flex;
+    justify-content: flex-end;
+    border-bottom: 2px rgb(197, 0, 0) solid;
+}
+
+a {
+    margin: 1rem;
+    list-style: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: rgb(255, 36, 36);
+    text-decoration: none;
+}
+
+.nav > a {
+    font-weight: 600;
+}
+
+a:hover {
+    color: rgb(49, 235, 179);
+}
+
+@media screen and (max-width: 508px) {
+
+    a {
+        font-size: 0.85rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .nav {
+        justify-content: center;
+    }
+    
+
+}

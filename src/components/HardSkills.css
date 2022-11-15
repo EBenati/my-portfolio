@@ -1,0 +1,54 @@
+.hardskills-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-top: 6rem;
+
+}
+
+.hardskills-section > h1 {
+    color: rgb(49, 235, 179);
+    padding-left: 50px;
+    margin-left: 50px;
+    
+
+}
+
+.hardskills-list {
+    display: inline-flex;
+    justify-content: space-evenly;
+    color: white;
+}
+
+.hardskills-list > li {
+    margin: auto;
+    list-style: none;
+
+}
+
+.hardskills-list > li > p {
+    text-align: center;
+    font-size: 2rem;
+}
+
+@media screen and (max-width: 768px) {
+
+    .hardskills-section {
+        display: flex;
+        margin: auto;
+    }
+
+    .hardskills-section > h1 {
+        text-align: center;
+        margin-top: 4rem;
+        margin-bottom: 4rem;
+        padding-left: 0px;
+        margin-left: 0px;
+    }
+
+    .hardskills-list {
+        display: grid;
+        grid-template-columns: repeat(2, 200px);
+    }
+
+}

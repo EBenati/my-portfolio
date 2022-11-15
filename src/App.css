@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-image: url('./images/pexels-sami-anas-5641973.jpg');  */
+    /* background-size:100vw;   */
+    /* background-image: url('./images/bg.png'); */
+    /* background-image: url('./images/5437842.jpg'); */
+    background-image: url('./images/back.png');
+    background-size: cover;
+    font-size: 10px;
+    font-family: Andale Mono,AndaleMono,monospace;
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+h1 {
+    color: rgb(49, 235, 179);
+    font-size: 2rem;
+    text-shadow: 1px 1px 2px black;
+}
+
+p {
+    color: #914b04;
+    
+}
+
+.footer {
+    
+    color: white;
+}

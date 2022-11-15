@@ -1,0 +1,80 @@
+/* 
+$desktop : 1280px;
+$laptop : 1021px;
+$tablet : 768px;
+$smartpone : 480px;
+ */
+
+.contactme-section {
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 6rem;
+
+    
+}
+
+.contactme-title {
+    padding-left: 100px;   
+}
+
+.contactme-list {
+    display: inline-flex;
+    justify-content: space-evenly;
+    font-size: 30px;
+    color: white;
+
+  
+}
+
+.contactme-list > li {
+    list-style: none;
+}
+
+
+.whats, .tel, .github, .linkedin, .email {
+    align-items: center;
+    
+}
+
+.whats, .tel, .github, .linkedin, .email > p {
+    font-size: 1.5rem;
+    font-weight: 600;
+    
+} 
+
+.footer {
+    margin-top: 130px;
+    padding-top: 0.7rem;
+    align-self: center;
+    border-top: 1pt solid white;
+    width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+
+    .contactme-section {
+        display: flex;
+
+    }
+
+    .contactme-list {
+        display: grid;
+        grid-template-columns: repeat(2, 100px);
+        margin-top: 4rem;
+        margin-bottom: 4rem;
+
+    }
+
+    .contactme-title {
+        text-align: center;
+        padding-left: 0px;  
+        margin-top: 0%; 
+        
+    }
+
+    .footer {
+        display: none;
+    }
+
+}
