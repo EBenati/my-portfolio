@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/my-portfolio/static/css/main.4be15a5d.css",
+    "main.js": "/my-portfolio/static/js/main.52118ef6.js",
+    "static/js/787.128fc6e9.chunk.js": "/my-portfolio/static/js/787.128fc6e9.chunk.js",
+    "static/media/back.png": "/my-portfolio/static/media/back.825d8b80d65343a2d0ca.png",
+    "static/media/light-dark-landpage.png": "/my-portfolio/static/media/light-dark-landpage.917e85e0ba8b0eb21b97.png",
+    "static/media/Landpage-Dropdown-Menu.png": "/my-portfolio/static/media/Landpage-Dropdown-Menu.eec77aa73a97ed0e6063.png",
+    "static/media/Rating-FeedBack.png": "/my-portfolio/static/media/Rating-FeedBack.4d3b87dae10c7ffb19ea.png",
+    "static/media/Tip-Calculator.png": "/my-portfolio/static/media/Tip-Calculator.aa0159fb9878ebf4238c.png",
+    "static/media/Game-Guees-Number.png": "/my-portfolio/static/media/Game-Guees-Number.e251a1e0372cd9d6e691.png",
+    "static/media/photo-presentation.jpg": "/my-portfolio/static/media/photo-presentation.96615565539d3fa4cb5d.jpg",
+    "index.html": "/my-portfolio/index.html",
+    "main.4be15a5d.css.map": "/my-portfolio/static/css/main.4be15a5d.css.map",
+    "main.52118ef6.js.map": "/my-portfolio/static/js/main.52118ef6.js.map",
+    "787.128fc6e9.chunk.js.map": "/my-portfolio/static/js/787.128fc6e9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4be15a5d.css",
+    "static/js/main.52118ef6.js"
+  ]
+}
