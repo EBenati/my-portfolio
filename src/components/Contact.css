@@ -1,21 +1,14 @@
-/* 
-$desktop : 1280px;
-$laptop : 1021px;
-$tablet : 768px;
-$smartpone : 480px;
- */
 
 .contactme-section {
     background-position: center;
     display: flex;
     flex-direction: column;
-    margin-top: 6rem;
-
+    margin-top: 10rem;
     
 }
 
 .contactme-title {
-    padding-left: 100px;   
+   margin-top: 5rem; 
 }
 
 .contactme-list {
@@ -23,11 +16,11 @@ $smartpone : 480px;
     justify-content: space-evenly;
     font-size: 30px;
     color: white;
-
+    margin-top: 10rem;
   
 }
 
-.contactme-list > li {
+.contactme-list > li > a {
     list-style: none;
 }
 
@@ -54,22 +47,36 @@ $smartpone : 480px;
 @media screen and (max-width: 768px) {
 
     .contactme-section {
-        display: flex;
+        display: block;
+        margin-top: 1rem;
+    }
 
+    .contactme-title {
+        font-size: 3rem; 
+        text-align: center;
+        padding-left: 0px;  
+        margin-top: 0%; 
     }
 
     .contactme-list {
         display: grid;
-        grid-template-columns: repeat(2, 100px);
-        margin-top: 4rem;
-        margin-bottom: 4rem;
+        grid-template-columns: repeat(2, 1fr);
+        margin-top: 1rem;
+    }
+
+    .contactme-list > li {
+        margin: auto;
+        padding: 10px;
 
     }
 
-    .contactme-title {
-        text-align: center;
-        padding-left: 0px;  
-        margin-top: 0%; 
+    .contactme-list > li > a {
+        text-decoration: none;
+    }
+
+    .whats, .tel, .github, .linkedin, .email {
+        align-items: center;
+        margin: auto;
         
     }
 
@@ -77,4 +84,25 @@ $smartpone : 480px;
         display: none;
     }
 
+}
+
+@media screen and (orientation: landscape) {
+    .contactme-section {
+        margin-top: 1rem;
+    }
+
+    .contactme-title {
+        font-size: 3rem; 
+        text-align: center;
+        padding-left: 0px;  
+        margin-top: 0%; 
+    }
+
+    .contactme-list > li > a {
+        text-decoration: none;
+    }
+
+    .footer {
+        display: none;
+    }
 }
