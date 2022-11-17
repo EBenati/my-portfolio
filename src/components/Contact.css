@@ -75,6 +75,10 @@
         text-decoration: none;
     }
     
+    .contactme-list > li > a > p {
+        font-size: 1rem;
+    }
+
     .whats, .tel, .github, .linkedin, .email {
         align-items: center;
         margin-bottom: 2rem;
