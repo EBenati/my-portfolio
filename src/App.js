@@ -6,28 +6,16 @@ import Contact from './components/Contact';
 import Navbar from './components/Navbar';
 import Error from './components/Error';
 import Projects from './components/Projects';
-import { useEffect, useState } from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
 
 function App() {
-
-  //Time
-
-  const [date, setDate] = useState(new Date())
-
-  useEffect(() => {
-    setDate(new Date())
-  },[date])
-  
    return (
     <BrowserRouter>
       <div className="App">
         <Navbar />      
         <Routes>
-          <Route path='' element={<Home
-          time={date.toLocaleTimeString()} 
-          />}/> 
+          <Route path='' element={<Home />}/> 
           <Route path='/aboutMe' element={<AboutMe />}/>
           <Route path='/hardskills' element={<HardSkills />}/>
           <Route path='/contact' element={<Contact />}/>

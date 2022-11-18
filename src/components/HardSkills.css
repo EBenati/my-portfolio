@@ -57,10 +57,6 @@
         margin-right: 5rem;
     }
 
-    .hardskills-list > li > p {
-        display: none;
-    }
-
     .hardskills-list > li {
         margin: auto;
         padding-bottom: 20px;
@@ -163,44 +159,4 @@
     }
 
 }
-
-
-
-
-
-
-
-
-/* Smartphone screen  */
-
-@media (max-width: 480px) {
-
-    
-
-}
-
-/* Tablet screen */
-
-@media (min-width: 480px) {
-
-    
-
-}
-
-
-/* Notebook screen */
-
-@media (min-width: 768px) {
-
-    
-
-}
-
-/* Desktop screen  */
-
-@media (min-width: 1024px) {
-
-   
-
-} 
 

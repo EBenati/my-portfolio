@@ -2,10 +2,10 @@ import React from 'react'
 import './Home.css'
 import '../App.css';
 
-function Home({time}) {
+function Home() {
   return (
     <main className='homepage-section'>               
-        <div className='home-section'>
+        <div className='text-section'>
             <h3>Olá! Me chamo <br />
             <span className='name'>Everton BENATI,</span><br />
               e transformar idéias em código <br />

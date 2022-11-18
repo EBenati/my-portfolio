@@ -1,24 +1,18 @@
 
 .homepage-section {
     background-size: cover;
-    display: block;
+    display: flex;
+    flex-direction: column;
     font-family: Andale Mono, monospace;
     align-items: center;
-    /* backdrop-filter: blur(4px); */
 }
 
-.home-section {   
+h3 {   
     color: #914b04;
     text-align: left;
-    margin-top: 5rem;
-    padding: 2rem 3.5rem;      
-    
-}
-
-.home-section > h3 {
-    font-size: 2.5rem;
     margin-top: 8rem;
-
+    padding: 2rem 3.5rem;      
+    font-size: 2.5rem;    
 }
 
 .name {
@@ -32,19 +26,22 @@
 
     .homepage-section {
         display: flex;
-        /* margin: auto; */
-        backdrop-filter: blur(0px);
         text-align: center;
-        /* background-color: red; */
+        width: 100%;
     }
 
-    .home-section {
-        text-align: center;
-        margin:auto
+    .text-section {
+        margin: auto;
     }
 
-    .home-section > h3 {
+    h3 {
+        text-align: center;
         font-size: 2rem;
+        margin: 8rem auto;
+    }
+
+    .name {
+        font-size: 3rem
     }
 
 }
@@ -55,19 +52,17 @@
 
     .homepage-section {
         display: flex;
-        /* margin: auto; */
         backdrop-filter: blur(0px);
         text-align: center;
-        /* background-color: blue; */
     }
 
-    .home-section {
-        text-align: center;
+    .text-section {
         margin: auto
     }
 
-    .home-section > h3 {
-        font-size: 2rem;
+    h3 {
+        font-size: 3rem;
+        text-align: right;
     }
 
 }
@@ -78,20 +73,23 @@
 @media (min-width: 768px) {
 
     .homepage-section {
-        display: block;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
         backdrop-filter: none;
-        text-align: center;
     }
 
-    .home-section {
-        text-align: center;
-        margin: 13.5rem auto
+    .text-section {
+        margin: 6rem auto auto 4rem;
+
     }
 
-    .home-section > h3 {
+    h3 {
         font-size: 2rem;
+        text-align: left;
+        font-family: 'Lato', sans-serif;
     }
-
+    
 }
 
 /* Desktop screen  */
@@ -100,17 +98,15 @@
 
     .homepage-section {
         display: flex;
+        flex-direction: row;
         justify-content: flex-start;
         backdrop-filter: none;
     }
 
-    .home-section {
-        text-align: left;
-        margin: auto 2rem;
-    }
-
-    .home-section > h3 {
+    h3 {
         font-size: 3rem;
+        text-align: left;
+        font-family: 'Lato', sans-serif;
     }
 
 }
