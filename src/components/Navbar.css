@@ -29,9 +29,8 @@ a:hover {
         border-bottom: none;
     }
 
-    .menu-icon {     
-
-        padding: 10px;
+    .menu-icon {   
+        padding: 20px;
         width: 40px;
         z-index: 2;
     }
@@ -80,7 +79,7 @@ a:hover {
         }
     
         .menu-icon {       
-            padding: 15px;
+            padding: 20px;
             width: 40px;
             z-index: 2;
         }
