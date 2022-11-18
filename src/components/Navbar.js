@@ -13,7 +13,7 @@ function Navbar() {
   return (
     <div className='nav'>
         <div className='menu-icon'>
-          <Hamburger size={48} onToggle={handleToggle} />
+          <Hamburger size={45} onToggle={handleToggle} />
          </div>      
         <div className={ isOpen ? 'show-links' : 'hide-links'}>
           <Link className='menu-item' to=''>Home</Link>

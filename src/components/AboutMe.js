@@ -12,7 +12,7 @@ function AboutMe() {
             dedicar ao aprendizado de modo a me tornar um programador front-end.
         </p> 
         <p>
-            Sempre fui um autodidata, comecei fazendo o curso CS50 da Harvard,<br />
+            Sempre fui um autodidata, então comecei fazendo o curso CS50 da Harvard,<br />
             depois passei para o curso completo de Web Developer da Mozilla,<br />
             em seguida fiz alguns cursos de JavaScript e ReactJS da plataformas <br />
             Udemy, Scrimba e DIO; li bons livros de programação.

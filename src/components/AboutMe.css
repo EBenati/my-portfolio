@@ -9,7 +9,7 @@
     margin: auto;
     font-size: 1.2rem;
     color: #914b04;
-    font-weight: 600;
+    font-weight: 500;
     line-height: 1.5rem;        
 }
 
@@ -42,8 +42,8 @@
     }
 
     .aboutme-text {
-        font-size: 1.5rem;
-        line-height: 1.8rem;
+        font-size: 1.1rem;
+        line-height: 1.5rem;
         padding: 0 1rem;
     }
 

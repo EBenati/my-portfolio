@@ -2,18 +2,12 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* background-image: url('./images/pexels-sami-anas-5641973.jpg');  */
-    /* background-size:100vw;   */
-    /* background-image: url('./images/bg.png'); */
-    /* background-image: url('./images/5437842.jpg'); */
     background-image: url('./images/back.png');
     background-size: cover;
     font-size: 10px;
-    font-family: Andale Mono,AndaleMono,monospace;
+    font-family: "Lato", sans-serif;
     display: flex;
     flex-direction: column;
-    
-
 }
 
 h1 {
