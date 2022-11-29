@@ -15,7 +15,7 @@ function AboutMe() {
             Sempre fui um autodidata, então comecei fazendo o curso CS50 da Harvard,<br />
             depois passei para o curso completo de Web Developer da Mozilla,<br />
             em seguida fiz alguns cursos de JavaScript e ReactJS da plataformas <br />
-            Udemy, Scrimba e DIO; li bons livros de programação.
+            Udemy, Scrimba e DIO, e li bons livros de programação.
         </p>
 
         <p>

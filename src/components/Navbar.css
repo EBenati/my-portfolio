@@ -1,15 +1,15 @@
 .nav {
     display: flex;
     justify-content: flex-end;
-    border-bottom: 2px rgb(197, 0, 0) solid;
+    border-bottom: 2px  #914b04 solid;
 }
 
 .nav > a {
-    margin: 1rem;
+    margin: 0.8rem;
     list-style: none;
     font-size: 1rem;
     cursor: pointer;
-    color: rgb(255, 36, 36);
+    color:  #914b04;
     text-decoration: none;
     font-weight: 600;
 
@@ -124,7 +124,7 @@ a:hover {
     .nav {
         display: flex;
         justify-content: flex-end;
-        border-bottom: 2px rgb(197, 0, 0) solid;
+        border-bottom: 2px  #914b04 solid;
     }
 
     .menu-icon {
@@ -137,11 +137,12 @@ a:hover {
         list-style: none;
         font-size: 1.3rem;
         cursor: pointer;
-        color: rgb(255, 36, 36);
+        color:  #914b04;
         text-decoration: none;        
     }
     
     .nav > a {
+        margin: 0.8rem;
         font-weight: 600;
     }
     
@@ -160,13 +161,13 @@ a:hover {
     }
 
     .menu-item {
-        font-size: 1.5rem;
-        margin: .3rem;
+        font-size: 1.1rem;
+        margin: .5rem;
         padding-right: 1rem;
         text-decoration: none;
-        color: red;
+        color: #914b04;
         font-family: 'Lato', sans-serif;
-        font-weight: 500;
+        font-weight: 700;
         
     }
 }
@@ -180,7 +181,7 @@ a:hover {
     .nav {
         display: flex;
         justify-content: flex-end;
-        border-bottom: 2px rgb(197, 0, 0) solid;
+        border-bottom: 2px  #914b04 solid;
     }
 
     .menu-icon {
@@ -193,12 +194,12 @@ a:hover {
         list-style: none;
         font-size: 1.3rem;
         cursor: pointer;
-        color: rgb(255, 36, 36);
+        color: #914b04;
         text-decoration: none;        
     }
     
     .nav > a {
-        font-weight: 600;
+        font-weight: 500;
     }
     
     a:hover {
@@ -216,13 +217,13 @@ a:hover {
     }
 
     .menu-item {
-        font-size: 1.5rem;
-        margin: .4rem;
+        font-size: 1.1rem;
+        margin: .5rem;
         padding-right: 1rem;
         text-decoration: none;
-        color: red;
+        color:  #914b04;
         font-family: 'Lato', sans-serif;
-        font-weight: 500;
+        font-weight: 700;
         
     }
 }

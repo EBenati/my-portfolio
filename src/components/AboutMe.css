@@ -138,11 +138,11 @@
     .aboutme-text {
         font-size: 1.5rem;
         line-height: 1.8rem;
-        padding-left: 2rem;
+        padding-left: 6rem;
     }
 
     .aboutme-image {
-        margin: auto 5rem auto 2rem;
+        margin: auto 10rem auto 2rem;
         box-shadow: 4px 4px 8px gray;  
         margin-bottom: 1rem;
 

@@ -13,14 +13,14 @@ function Navbar() {
   return (
     <div className='nav'>
         <div className='menu-icon'>
-          <Hamburger size={45} onToggle={handleToggle} />
+          <Hamburger color='rgb(49, 235, 179)' size={45} onToggle={handleToggle} />
          </div>      
         <div className={ isOpen ? 'show-links' : 'hide-links'}>
-          <Link className='menu-item' to=''>Home</Link>
-          <Link className='menu-item' to='/AboutMe'>Sobre Mim</Link>
-          <Link className='menu-item' to='/HardSkills'>Hard Skills</Link>
-          <Link className='menu-item' to='/Projects'>Projetos</Link>
-          <Link className='menu-item' to='/Contact'>Contatos</Link>
+          <Link className='menu-item' to=''>HOME</Link>
+          <Link className='menu-item' to='/AboutMe'>SOBRE MIM</Link>
+          <Link className='menu-item' to='/HardSkills'>HARD SKILLS</Link>
+          <Link className='menu-item' to='/Projects'>PROJETOS</Link>
+          <Link className='menu-item' to='/Contact'>CONTATOS</Link>
         </div>
     </div>
   )
