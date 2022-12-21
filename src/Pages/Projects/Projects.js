@@ -1,10 +1,10 @@
 import React from 'react'
-import GuessGame from '../images/Game-Guees-Number.png'
-import '../components/Projects.css'
-import LanPage from '../images/Landpage-Dropdown-Menu.png'
-import Rating from '../images/Rating-FeedBack.png'
-import TipCalculator from '../images/Tip-Calculator.png'
-import LightDarkMode from '../images/light-dark-landpage.png'
+import GuessGame from '../../images/Game-Guees-Number.png'
+import './Projects.css'
+import LandPage from '../../images/Landpage-Dropdown-Menu.png'
+import Rating from '../../images/Rating-FeedBack.png'
+import TipCalculator from '../../images/Tip-Calculator.png'
+import LightDarkMode from '../../images/light-dark-landpage.png'
 
 const Projects = () => {
     return (
@@ -18,7 +18,7 @@ const Projects = () => {
                     </a>                    
                 </div>
                 <div className='project'>
-                    <img src={LanPage} alt="Guess Game" />
+                    <img src={LandPage} alt="Guess Game" />
                     <a href="https://github.com/EBenati/ebenati.github.io/tree/main/intro-section-with-dropdown-navigation-main">
                         <p>Página com DropMenu</p>
                     </a>                    

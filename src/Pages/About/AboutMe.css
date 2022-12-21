@@ -14,7 +14,7 @@
 }
 
 .aboutme-image {
-    background-image: url('../images/photo-presentation.jpg');
+    background-image: url('../../images/photo-presentation.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 0px -30px;

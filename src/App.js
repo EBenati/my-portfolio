@@ -1,11 +1,11 @@
 import './App.css';
-import Home from './components/Home';
-import AboutMe from './components/AboutMe';
-import HardSkills from './components/HardSkills';
-import Contact from './components/Contact';
+import Home from './Pages/Home/Home';
+import AboutMe from './Pages/About/AboutMe';
+import HardSkills from './Pages/HardSkills/HardSkills';
+import Contact from './Pages/Contact/Contact';
 import Navbar from './components/Navbar';
 import Error from './components/Error';
-import Projects from './components/Projects';
+import Projects from './Pages/Projects/Projects';
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
 
