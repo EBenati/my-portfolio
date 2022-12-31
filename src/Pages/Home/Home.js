@@ -1,7 +1,7 @@
 import React from 'react'
 import './Home.css'
 import '../../App.css';
-
+import Avatar from '../../images/AvatarEverton.png'
 function Home() {
   return (
     <main className='homepage-section'>               
@@ -10,7 +10,10 @@ function Home() {
             <span className='name'>Everton BENATI,</span><br />
               e transformar idéias em código <br />
               é o que AMO FAZER.
-            </h3>
+            </h3>            
+        </div>
+        <div className='avatar'>
+          <img src={Avatar} alt="avatar" />
         </div>
     </main>     
   )

@@ -1,15 +1,16 @@
 
 .homepage-section {
-    background-size: cover;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+    margin: auto;
 }
 
 h3 {   
     color: #914b04;
     text-align: left;
-    margin-top: 8rem;
+    /* margin-top: 8rem; */
     padding: 2rem 3.5rem;      
     font-size: 2.5rem;    
 }
@@ -26,8 +27,9 @@ h3 {
 
     .homepage-section {
         display: flex;
+        flex-direction: column;
         text-align: center;
-        width: 100%;
+        width: 100vw;
     }
 
     .text-section {
@@ -37,13 +39,17 @@ h3 {
     h3 {
         text-align: center;
         font-size: 2rem;
-        margin: 6rem auto;
+        margin: auto;
         text-shadow: 2px 4px 5px gray;
 
     }
 
     .name {
         font-size: 3rem
+    }
+
+    .avatar {
+        margin: auto;
     }
 
 }
@@ -63,10 +69,13 @@ h3 {
     }
 
     h3 {
-        font-size: 3rem;
+        font-size: 2rem;
         text-align: right;
         text-shadow: 2px 4px 5px gray;
+    }
 
+    .avatar {        
+        margin: auto;
     }
 
 }
@@ -79,8 +88,8 @@ h3 {
     .homepage-section {
         display: flex;
         flex-direction: row;
-        justify-content: flex-start;
-        backdrop-filter: none;
+        justify-content: space-between;
+        margin: 10rem;
     }
 
     .text-section {
@@ -93,6 +102,12 @@ h3 {
         font-family: 'Lato', sans-serif;
         text-shadow: 2px 4px 5px gray;
     }
+
+    .avatar {
+        border: 3rem solid #914b04;
+        border-radius: 50%;
+        margin: auto;
+    }
     
 }
 
@@ -103,16 +118,21 @@ h3 {
     .homepage-section {
         display: flex;
         flex-direction: row;
-        justify-content: flex-start;
-        backdrop-filter: none;
+        justify-content: center;
+        margin: 2rem 5rem;
     }
 
     h3 {
-        font-size: 3rem;
+        font-size: 2rem;
         text-align: left;
         font-family: 'Lato', sans-serif;
         text-shadow: 2px 4px 5px gray;
+    }
 
+    .avatar {
+        border: 3rem solid #914b04;
+        border-radius: 50%;
+        margin: auto;
     }
 
 }
