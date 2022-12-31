@@ -1,6 +1,5 @@
 import React from 'react'
 import './Home.css'
-import '../../App.css';
 import Avatar from '../../images/AvatarEverton.png'
 function Home() {
   return (
