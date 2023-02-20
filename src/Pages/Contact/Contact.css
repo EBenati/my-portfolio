@@ -1,254 +1,241 @@
-
 .contactme-section {
-    background-position: center;
-    display: flex;
-    flex-direction: column;
-    margin-top: 10rem;
-    
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 10rem;
 }
 
 .contactme-title {
-   margin-top: 5rem; 
+  margin-top: 5rem;
 }
 
 .contactme-list {
-    display: inline-flex;
-    justify-content: space-evenly;
-    font-size: 30px;
-    color: white;
-    margin-top: 10rem;
-  
+  display: inline-flex;
+  justify-content: space-evenly;
+  font-size: 30px;
+  color: white;
+  margin-top: 10rem;
 }
 
 .contactme-list > li > a {
-    list-style: none;
+  list-style: none;
 }
 
-
-.whats, .tel, .github, .linkedin, .email {
-    align-items: center;
-    
+.whats,
+.tel,
+.github,
+.linkedin,
+.email {
+  align-items: center;
 }
 
-.whats, .tel, .github, .linkedin, .email > p {
-    font-size: 1.5rem;
-    font-weight: 600;
-    
-} 
+.whats,
+.tel,
+.github,
+.linkedin,
+.email > p {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
 
 .footer {
-    margin-top: 130px;
-    padding-top: 0.7rem;
-    align-self: center;
-    border-top: 1pt solid white;
-    width: 100%;
+  margin-top: 130px;
+  padding-top: 0.7rem;
+  align-self: center;
+  border-top: 1pt solid white;
+  width: 100%;
 }
-
-
 
 /* Smartphone screen  */
 
 @media (max-width: 480px) {
-    
-    
-    .contactme-section {
-        display: block;
-        margin: auto;
-    }
-    
-    .contactme-title {
-        font-size: 3rem; 
-        text-align: center;
-        padding-left: 0px;
-        padding-bottom: 2rem;   
-    }
-    
-    .contactme-list {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: repeat(2, 1fr);
-        row-gap: 4rem;
-        margin: auto;
-    }
-    
-    .contactme-list > li > a {
-        text-decoration: none;
-    }
-    
-    .contactme-list > li > a > p {
-        font-size: 1rem;
-    }
+  .contactme-section {
+    display: block;
+    margin: auto;
+  }
 
-    .whats, .tel, .github, .linkedin, .email {
-        align-items: center;
-        margin-bottom: 2rem;
-    }
-    
-    .footer {
-        display: none;
-    }
-    
+  .contactme-title {
+    font-size: 3rem;
+    text-align: center;
+    padding-left: 0px;
+    padding-bottom: 2rem;
+  }
+
+  .contactme-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    row-gap: 4rem;
+    margin: auto;
+  }
+
+  .contactme-list > li > a {
+    text-decoration: none;
+  }
+
+  .contactme-list > li > a > p {
+    font-size: 1rem;
+  }
+
+  .whats,
+  .tel,
+  .github,
+  .linkedin,
+  .email {
+    align-items: center;
+    margin-bottom: 2rem;
+  }
+
+  .footer {
+    display: none;
+  }
 }
 
 /* Tablet screen */
 
 @media (min-width: 480px) {
+  .contactme-section {
+    display: block;
+    margin: auto;
+  }
 
-    .contactme-section {
-        display: block;
-        margin: auto;
-    }
-    
-    .contactme-title {
-        font-size: 3rem; 
-        text-align: center;
-        padding-left: 0px;
-        padding-bottom: 2rem;   
-    }
-    
-    .contactme-list {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: repeat(2, 1fr);
-        row-gap: 4rem;
-        margin: auto;
-    }
-    
-    .contactme-list > li > a {
-        text-decoration: none;
-    }
-    
-    .whats, .tel, .github, .linkedin, .email {
-        align-items: center;
-        margin-bottom: 2rem;
-    }
-    
-    .footer {
-        display: none;
-    }
+  .contactme-title {
+    font-size: 3rem;
+    text-align: center;
+    padding-left: 0px;
+    padding-bottom: 2rem;
+  }
 
+  .contactme-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    row-gap: 4rem;
+    margin: auto;
+  }
+
+  .contactme-list > li > a {
+    text-decoration: none;
+  }
+
+  .whats,
+  .tel,
+  .github,
+  .linkedin,
+  .email {
+    align-items: center;
+    margin-bottom: 2rem;
+  }
+
+  .footer {
+    display: none;
+  }
 }
+/* Tablet screen */
 
+@media (min-width: 480px) {
+  .contactme-section {
+    display: block;
+    margin: auto;
+  }
+
+  .contactme-title {
+    font-size: 3rem;
+    text-align: center;
+    padding-left: 0px;
+    padding-bottom: 2rem;
+  }
+
+  .contactme-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    row-gap: 3rem;
+  }
+
+  .contactme-list > li {
+    margin: auto;
+  }
+
+  .contactme-list > li > a {
+    text-decoration: none;
+  }
+
+  .whats,
+  .tel,
+  .github,
+  .linkedin,
+  .email {
+    align-items: center;
+    margin: 1rem;
+  }
+}
 
 /* Notebook screen */
 
 @media (min-width: 768px) {
+  .contactme-section {
+    display: block;
+    margin: 12rem 4rem;
+  }
 
-    .contactme-section {
-        display: block;
-        margin: auto;
-    }
-    
-    .contactme-title {
-        font-size: 3rem; 
-        text-align: center;
-        padding-left: 0px;
-        padding-bottom: 2rem;   
-    }
-    
-    .contactme-list {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: repeat(2, 1fr);
-        row-gap: 4rem;
-        margin: auto;
-    }
-    
-    .contactme-list > li > a {
-        text-decoration: none;
-    }
-    
-    .whats, .tel, .github, .linkedin, .email {
-        align-items: center;
-        margin-bottom: 2rem;
-    }
-    
-    .footer {
-        display: none;
-    }
-    
-}
+  .contactme-title {
+    display: none;
+  }
 
-/* Tablet screen */
+  .contactme-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    margin: auto;
+  }
 
-@media (min-width: 480px) {
+  .contactme-list > li > a {
+    text-decoration: none;
+  }
 
-    .contactme-section {
-        display: block;
-        margin: auto;
-    }
-    
-    .contactme-title {
-        font-size: 3rem; 
-        text-align: center;
-        padding-left: 0px;
-        padding-bottom: 2rem;   
-    }
-    
-    .contactme-list {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: repeat(2, 1fr);
-        row-gap: 3rem;
-    }
-
-    .contactme-list > li {
-        margin: auto;
-    }
-    
-    .contactme-list > li > a {
-        text-decoration: none;
-    }
-    
-    .whats, .tel, .github, .linkedin, .email {
-        align-items: center;
-        margin: 1rem;
-    }
-    
-    .footer {
-        display: none;
-    }
-
+  .whats,
+  .tel,
+  .github,
+  .linkedin,
+  .email {
+    align-items: center;
+    margin-bottom: 2rem;
+  }
 }
 
 /* Desktop screen  */
 
 @media (min-width: 1024px) {
+  .contactme-section {
+    display: block;
+    margin: 12rem 4rem;
+  }
 
-    .contactme-section {
-        display: block;
-        margin: auto;
-    }
-    
-    .contactme-title {
-        font-size: 3rem; 
-        text-align: left;
-        padding-left: 3rem;
-        padding-bottom: 2rem;   
-    }
-    
-    .contactme-list {
-        display: grid;
-        grid-template-columns: repeat(5, 1fr);
-        grid-template-rows: repeat(1, 1fr);
-        row-gap: 3rem;
-    }
+  .contactme-title {
+    display: none;
+  }
 
-    .contactme-list > li {
-        margin: auto;
-    }
-    
-    .contactme-list > li > a {
-        text-decoration: none;
-    }
-    
-    .whats, .tel, .github, .linkedin, .email {
-        align-items: center;
-        margin: 1rem;
-    }
-    
-    .footer {
-        display: none;
-    }
+  .contactme-list {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+  }
 
-} 
+  .contactme-list > li {
+    margin: auto;
+  }
+
+  .contactme-list > li > a {
+    text-decoration: none;
+  }
+
+  .whats,
+  .tel,
+  .github,
+  .linkedin,
+  .email {
+    align-items: center;
+    margin: 1rem;
+  }
+}

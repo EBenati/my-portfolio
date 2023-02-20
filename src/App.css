@@ -1,28 +1,24 @@
 body {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    background-color: #ffffff;
-    /* background-image: url('./images/back.png');
-    background-size: cover; */
-    font-size: 10px;
-    font-family: "Lato", sans-serif;
-    display: flex;
-    flex-direction: column;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  font-size: 10px;
+  font-family: "Lato", sans-serif;
+  display: flex;
+  flex-direction: column;
 }
 
 h1 {
-    color: rgb(49, 235, 179);
-    font-size: 2rem;
-    text-shadow: 1px 1px 2px black;
+  color: rgb(49, 235, 179);
+  font-size: 2rem;
+  text-shadow: 1px 1px 2px black;
 }
 
 p {
-    color: #914b04;
-    
+  color: #914b04;
 }
 
 .footer {
-    
-    color: white;
+  color: white;
 }
