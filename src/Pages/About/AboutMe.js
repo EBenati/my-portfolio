@@ -7,14 +7,15 @@ function AboutMe() {
       <div className="aboutme-text">
         <h1>Sobre Mim</h1>
         <p>
-          Sempre fui um entusiasta da programação, mas nunca havia pensado em{" "}
+          Estou cursando Análise e Desenvolvimento de Sistemas, mas sempre fui
+          um entusiasta da tecnologia,
           <br />
-          ser um profissional da área, e há quase um ano passei a me dedicar
-          <br />
-          ao aprendizado de modo a me tornar um programador front-end.
+          portanto bem antes de começar a faculdade já me dedicava <br />
+          ao aprendizado da área, de modo a me tornar um programador front-end.
         </p>
         <p>
-          Sempre fui autodidata, então comecei fazendo o curso CS50 da Harvard,
+          Como sempre fui autodidata, comecei fazendo o curso CS50,
+          disponibilizado pela Harvard,
           <br />
           depois passei para o curso completo de Web Developer da Mozilla,
           <br />
